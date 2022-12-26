@@ -1,0 +1,1 @@
+1 -  importar as fontes do google fonts e colocar os links na head do index.htl e no arquivo .storybook/preview-head.hmtl

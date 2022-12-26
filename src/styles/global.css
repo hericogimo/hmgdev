@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backImg {
+    background-image: url('../../public/back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.backGrad{
+    background: linear-gradient(180deg, rgba(20, 22, 28, 0.56) 0%, rgba(21, 193, 150, 0.28) 52.6%, rgba(15, 19, 30, 0.644) 100%);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background: #6CD9BE;
+    margin-left: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #6CD9BE;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.tecs {
+    /* Tecs */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    top: 90%;
+    z-index: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .backGrad{
+        position: absolute;
+        height: 1024px;
+        left: 0px;
+        top: 0px;
+    }
+}
